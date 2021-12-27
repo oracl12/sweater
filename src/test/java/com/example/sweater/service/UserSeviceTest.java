@@ -36,7 +36,7 @@ public class UserSeviceTest {
     public void addUser() {
         User user = new User();
 
-        user.setEmail("some@mail.ru");
+        user.setEmail("some@gmail.com");
 
         boolean isUserCreated = userSevice.addUser(user);
 
